@@ -16,9 +16,14 @@ function App() {
 
   const [readingTime , setReadingTime] =useState(0)
 
-  const handleReadingTime =(time)=>{
+  const handleReadingTime =(time , id)=>{
     setReadingTime(readingTime+time)
-    
+    handleRemoveFromBookmark(id)
+  }
+
+  const handleRemoveFromBookmark =(id)=> {
+    const remainingBookmark = bookmark.filter(mark=>mark.id !==id)
+    return setBookmark(remainingBookmark)
   }
 
   return (
@@ -27,10 +32,10 @@ function App() {
       <Suspense fallback={<h3>Data is loading... Please wait !</h3>}>
         <Navbar></Navbar>
         <div className='flex text-center gap-1.5'>
-          <div className='w-[70%] border-[1px] border-amber-100'>
+          <div className='w-[70%] mx-2 '>
             <Blogs handleBookmark={handleBookmark} handleReadingTime={handleReadingTime}></Blogs>
           </div>
-          <div className='w-[30%] border-[1px] border-amber-100'>
+          <div className='w-[30%] mx-2 '>
             <Bookmark bookmark={bookmark} readingTime={readingTime}></Bookmark>
           </div>
         </div>

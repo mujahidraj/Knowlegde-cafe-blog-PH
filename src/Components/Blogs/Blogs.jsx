@@ -12,7 +12,7 @@ const Blogs = ({handleBookmark , handleReadingTime}) => {
 
     return (
         <div>
-            <h4>Total Blog : {blogs.length}</h4>
+            <h4 className='text-xl font-bold '>Blogs in this site {blogs.length}</h4>
             <div className='grid grid-cols-2 gap-5'>{blogs.map(blog =>
                 <Suspense fallback={<h2>Data are loading...please wait...</h2>}><Blog key={blog.id} handleBookmark={handleBookmark} handleReadingTime={handleReadingTime} blog={blog}></Blog></Suspense>
             )}</div>

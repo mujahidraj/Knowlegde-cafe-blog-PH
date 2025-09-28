@@ -2,8 +2,6 @@ import React from 'react';
 
 const Bookmark = ({bookmark ,readingTime}) => {
 
-    
-
     return (
         <div className='mx-2'>
             <h2>Reading time : {readingTime} Mins</h2>
