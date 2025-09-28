@@ -14,6 +14,13 @@ function App() {
 
   }
 
+  const [readingTime , setReadingTime] =useState(0)
+
+  const handleReadingTime =(time)=>{
+    setReadingTime(readingTime+time)
+    
+  }
+
   return (
 
     <>
@@ -21,10 +28,10 @@ function App() {
         <Navbar></Navbar>
         <div className='flex text-center gap-1.5'>
           <div className='w-[70%] border-[1px] border-amber-100'>
-            <Blogs handleBookmark={handleBookmark}></Blogs>
+            <Blogs handleBookmark={handleBookmark} handleReadingTime={handleReadingTime}></Blogs>
           </div>
           <div className='w-[30%] border-[1px] border-amber-100'>
-            <Bookmark bookmark={bookmark}></Bookmark>
+            <Bookmark bookmark={bookmark} readingTime={readingTime}></Bookmark>
           </div>
         </div>
       </Suspense>
