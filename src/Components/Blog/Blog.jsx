@@ -13,8 +13,8 @@ const Blog = ({ blog, handleBookmark, handleReadingTime }) => {
                 <div className="card-body">
                     <h2 className="card-title font-bold">{blog.title}</h2>
                     <div>
-                        <div className="author flex items-center justify-between py-3">
-                            <div className='flex items-center gap-2'>
+                        <div className="author flex items-center  max-sm:gap-4 justify-between py-3">
+                            <div className='flex max-sm:flex-col items-center gap-2'>
                                 <img className='w-14 rounded-4xl' src={blog.author_img} alt="" />
                                 <p className='text-lg max-w-20 font-bold'>{blog.author}</p>
                             </div>
