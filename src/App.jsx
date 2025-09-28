@@ -33,7 +33,7 @@ function App() {
         <Navbar></Navbar>
         <div className='flex text-center gap-1.5'>
           <div className='w-[70%] mx-2 '>
-            <Blogs handleBookmark={handleBookmark} handleReadingTime={handleReadingTime}></Blogs>
+           <Suspense fallback={<p>Data are loading</p>}> <Blogs handleBookmark={handleBookmark} handleReadingTime={handleReadingTime}></Blogs></Suspense>
           </div>
           <div className='w-[30%] mx-2 '>
             <Bookmark bookmark={bookmark} readingTime={readingTime}></Bookmark>

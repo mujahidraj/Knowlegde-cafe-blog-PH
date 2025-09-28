@@ -51,5 +51,145 @@
             "development",
             "resources"
         ]
+    },
+    {
+        "id": 5,
+        "cover": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "Mastering CSS Grid Layout: Complete Guide for Beginners",
+        "author_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "Alex Thompson",
+        "posted_date": "October 12, 2023",
+        "reading_time": 8,
+        "hashtags": [
+            "css",
+            "webdesign",
+            "beginners"
+        ]
+    },
+    {
+        "id": 6,
+        "cover": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "Node.js REST API Development: Best Practices and Patterns",
+        "author_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "Michael Chen",
+        "posted_date": "November 5, 2023",
+        "reading_time": 12,
+        "hashtags": [
+            "nodejs",
+            "backend",
+            "api"
+        ]
+    },
+    {
+        "id": 7,
+        "cover": "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "Mobile App Development with React Native: Getting Started",
+        "author_img": "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "Sarah Johnson",
+        "posted_date": "December 18, 2023",
+        "reading_time": 7,
+        "hashtags": [
+            "reactnative",
+            "mobile",
+            "javascript"
+        ]
+    },
+    {
+        "id": 8,
+        "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "Data Visualization with D3.js: Creating Interactive Charts",
+        "author_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "David Park",
+        "posted_date": "January 22, 2024",
+        "reading_time": 15,
+        "hashtags": [
+            "d3js",
+            "dataviz",
+            "javascript"
+        ]
+    },
+    {
+        "id": 9,
+        "cover": "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "Python for Data Science: Essential Libraries and Tools",
+        "author_img": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "Lisa Wang",
+        "posted_date": "February 14, 2024",
+        "reading_time": 11,
+        "hashtags": [
+            "python",
+            "datascience",
+            "pandas"
+        ]
+    },
+    {
+        "id": 10,
+        "cover": "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "DevOps Fundamentals: CI/CD Pipeline Setup Guide",
+        "author_img": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "Robert Kim",
+        "posted_date": "March 8, 2024",
+        "reading_time": 9,
+        "hashtags": [
+            "devops",
+            "cicd",
+            "tools"
+        ]
+    },
+    {
+        "id": 11,
+        "cover": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "Vue.js 3 Composition API: Modern Approach to Components",
+        "author_img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "Emma Davis",
+        "posted_date": "April 3, 2024",
+        "reading_time": 6,
+        "hashtags": [
+            "vuejs",
+            "frontend",
+            "composition"
+        ]
+    },
+    {
+        "id": 12,
+        "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "TypeScript for JavaScript Developers: Type System Deep Dive",
+        "author_img": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "James Wilson",
+        "posted_date": "May 19, 2024",
+        "reading_time": 14,
+        "hashtags": [
+            "typescript",
+            "javascript",
+            "advanced"
+        ]
+    },
+    {
+        "id": 13,
+        "cover": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "Web Performance Optimization: Techniques for Faster Loading",
+        "author_img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "Maria Garcia",
+        "posted_date": "June 7, 2024",
+        "reading_time": 10,
+        "hashtags": [
+            "performance",
+            "webdev",
+            "optimization"
+        ]
+    },
+    {
+        "id": 14,
+        "cover": "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "title": "Machine Learning Basics: Understanding Neural Networks",
+        "author_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        "author": "Daniel Lee",
+        "posted_date": "July 25, 2024",
+        "reading_time": 16,
+        "hashtags": [
+            "machinelearning",
+            "ai",
+            "neuralnetworks"
+        ]
     }
 ]
